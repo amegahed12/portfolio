@@ -1,0 +1,168 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Header */
+.header h1 {
+    font-family: 'Playfair Display', serif; /* Gives that classic serif look from the image */
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    color: #444;
+    font-size: 1.6rem;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+.bio {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.resume-download {
+    margin-bottom: 60px;
+}
+
+.download-btn {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #222;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.download-btn:hover {
+    background-color: #000;
+}
+
+.download-btn i {
+    margin-right: 8px;
+}
+
+/* Typography for sections */
+h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+/* Skills */
+.skills-section {
+    margin-bottom: 60px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 45px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75px;
+}
+
+.skill i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* Projects */
+.projects-section {
+    margin-bottom: 50px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-card {
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 25px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+    transition: box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.project-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.project-links {
+    display: flex;
+    gap: 12px;
+}
+
+.project-card a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #222;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.project-card a:hover {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+}
